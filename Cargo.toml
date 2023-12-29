@@ -16,7 +16,7 @@ homepage = "https://rbatis.github.io/rbatis.io"
 [dependencies]
 async-trait = "0.1"
 futures-core = { version = "0.3" }
-rbs = { version ="4.5", path = "../rbs" }
-rbdc = { version ="4.5", path = "../rbdc" ,default-features = false}
+rbs = { version ="4.5" }
+rbdc = { version ="4.5",default-features = false}
 mobc = {version = "0.8",features = ["tokio"]}
 parking_lot = "0.12.1"
